@@ -30,5 +30,19 @@ public class HomePage {
 		btn_quickFind.click();	
 	}
 	
+	@FindBy(xpath="(//*[@class='ui-button-text'])[3]")
+	WebElement btn_myAccount;
+	
+	public void clickMyAccount() {
+		btn_myAccount.click();
+	}
+	
+	@FindBy(xpath="(//span[contains(text(), 'Continue')])")
+	WebElement btn_continueNewCustomer;
+	
+	public void clickContinueNewCustomer() {
+		btn_continueNewCustomer.click();
+	}
+	
 
 }
