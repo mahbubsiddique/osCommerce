@@ -14,4 +14,4 @@ Then I see details of the selected product
 Examples:
 |brand		|
 |samsung	|
-#|microsoft	|
+|microsoft	|
